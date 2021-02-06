@@ -1,0 +1,78 @@
+2021-02-02T11:14:26.334+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-02-02T11:14:26.337+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2021-02-02T11:14:26.338+0800 I CONTROL  [initandlisten] MongoDB starting : pid=11976 port=27017 dbpath=E:\前端学习之路\BlogProject\model\db 64-bit host=RTOG593R4QEGUI2
+2021-02-02T11:14:26.338+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten] db version v4.0.20
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten] git version: e2416422da84a0b63cde2397d60b521758b56d1b
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten] modules: none
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten] build environment:
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-02-02T11:14:26.339+0800 I CONTROL  [initandlisten] options: { security: { authorization: "enabled" }, service: true, storage: { dbPath: "E:\前端学习之路\BlogProject\model\db" }, systemLog: { destination: "file", path: "E:\前端学习之路\BlogProject\model\mongod.log" } }
+2021-02-02T11:14:26.345+0800 I STORAGE  [initandlisten] Detected data files in E:\前端学习之路\BlogProject\model\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-02-02T11:14:26.345+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1451M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-02-02T11:14:26.597+0800 I STORAGE  [initandlisten] WiredTiger message [1612235666:596993][11976:140704205722960], txn-recover: Main recovery loop: starting at 9/39552 to 10/256
+2021-02-02T11:14:26.740+0800 I STORAGE  [initandlisten] WiredTiger message [1612235666:740288][11976:140704205722960], txn-recover: Recovering log 9 through 10
+2021-02-02T11:14:26.848+0800 I STORAGE  [initandlisten] WiredTiger message [1612235666:848190][11976:140704205722960], txn-recover: Recovering log 10 through 10
+2021-02-02T11:14:26.914+0800 I STORAGE  [initandlisten] WiredTiger message [1612235666:913954][11976:140704205722960], txn-recover: Set global recovery timestamp: 0
+2021-02-02T11:14:27.117+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] 
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-02-02T11:14:27.174+0800 I CONTROL  [initandlisten] 
+2021-02-02T11:14:27.195+0800 I SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2021-02-02T11:14:27.212+0800 I SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2021-02-02T11:14:27.213+0800 I SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2021-02-02T11:14:27.218+0800 I SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2021-02-02T11:14:27.622+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'E:/前端学习之路/BlogProject/model/db/diagnostic.data'
+2021-02-02T11:14:27.624+0800 I SHARDING [initandlisten] Marking collection admin.system.users as collection version: <unsharded>
+2021-02-02T11:14:27.624+0800 I SHARDING [initandlisten] Marking collection blog.articles as collection version: <unsharded>
+2021-02-02T11:14:27.624+0800 I SHARDING [initandlisten] Marking collection blog.users as collection version: <unsharded>
+2021-02-02T11:14:27.624+0800 I SHARDING [initandlisten] Marking collection config.system.sessions as collection version: <unsharded>
+2021-02-02T11:14:27.628+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-02-02T11:14:27.628+0800 I STORAGE  [initandlisten] Service running
+2021-02-02T11:14:27.628+0800 I SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2021-02-02T11:14:28.006+0800 I SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2021-02-02T11:14:33.471+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:62513 #1 (1 connection now open)
+2021-02-02T11:14:33.474+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:62513 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.20" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19041)" } }
+2021-02-02T11:14:33.764+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:62514 #2 (2 connections now open)
+2021-02-02T11:14:33.775+0800 I NETWORK  [conn2] received client metadata from 127.0.0.1:62514 conn2: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-02T11:17:26.924+0800 I ACCESS   [conn1] Supported SASL mechanisms requested for unknown user 'zh@test'
+2021-02-02T11:17:26.981+0800 I COMMAND  [conn1] command admin.system.users appName: "MongoDB Shell" command: isMaster { isMaster: 1.0, saslSupportedMechs: "test.zh", lsid: { id: UUID("c43dcb3d-b123-4d3e-aa5a-43ee5c3db4c4") }, $db: "test" } numYields:0 reslen:224 locks:{ Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } storage:{ data: { bytesRead: 126 } } protocol:op_msg 352ms
+2021-02-02T11:17:27.116+0800 I ACCESS   [conn1] SASL SCRAM-SHA-1 authentication failed for zh on test from client 127.0.0.1:62513 ; UserNotFound: Could not find user zh@test
+2021-02-02T11:17:27.230+0800 I COMMAND  [conn1] command admin.system.users appName: "MongoDB Shell" command: saslStart { saslStart: 1, mechanism: "SCRAM-SHA-1", payload: "xxx", $db: "test" } numYields:0 ok:0 errMsg:"Authentication failed." errName:AuthenticationFailed errCode:18 reslen:118 locks:{ Global: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { r: 1 } } } storage:{} protocol:op_msg 153ms
+2021-02-02T11:19:05.680+0800 I ACCESS   [conn1] Supported SASL mechanisms requested for unknown user 'itcast@test'
+2021-02-02T11:19:05.681+0800 I ACCESS   [conn1] SASL SCRAM-SHA-1 authentication failed for itcast on test from client 127.0.0.1:62513 ; UserNotFound: Could not find user itcast@test
+2021-02-02T11:22:59.519+0800 I NETWORK  [conn1] end connection 127.0.0.1:62513 (1 connection now open)
+2021-02-02T11:23:48.419+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:63167 #3 (2 connections now open)
+2021-02-02T11:23:48.420+0800 I NETWORK  [conn3] received client metadata from 127.0.0.1:63167 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.20" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19041)" } }
+2021-02-02T11:24:02.355+0800 I NETWORK  [conn3] end connection 127.0.0.1:63167 (1 connection now open)
+2021-02-02T11:24:22.722+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2021-02-02T11:24:22.722+0800 I REPL     [serviceShutdown] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2021-02-02T11:24:22.722+0800 I CONTROL  [serviceShutdown] Shutting down the LogicalSessionCache
+2021-02-02T11:24:22.722+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2021-02-02T11:24:22.722+0800 I NETWORK  [serviceShutdown] Shutting down the global connection pool
+2021-02-02T11:24:22.722+0800 I STORAGE  [serviceShutdown] Shutting down the PeriodicThreadToAbortExpiredTransactions
+2021-02-02T11:24:22.723+0800 I REPL     [serviceShutdown] Shutting down the ReplicationCoordinator
+2021-02-02T11:24:22.723+0800 I SHARDING [serviceShutdown] Shutting down the ShardingInitializationMongoD
+2021-02-02T11:24:22.723+0800 I COMMAND  [serviceShutdown] Killing all open transactions
+2021-02-02T11:24:22.723+0800 I -        [serviceShutdown] Killing all operations for shutdown
+2021-02-02T11:24:22.723+0800 I NETWORK  [serviceShutdown] Shutting down the ReplicaSetMonitor
+2021-02-02T11:24:22.723+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-02-02T11:24:22.723+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-02-02T11:24:22.723+0800 I FTDC     [serviceShutdown] Shutting down full-time data capture
+2021-02-02T11:24:22.723+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2021-02-02T11:24:22.737+0800 I STORAGE  [serviceShutdown] Shutting down the HealthLog
+2021-02-02T11:24:22.737+0800 I STORAGE  [serviceShutdown] Shutting down the storage engine
+2021-02-02T11:24:22.737+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2021-02-02T11:24:22.737+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2021-02-02T11:24:22.737+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2021-02-02T11:24:22.955+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2021-02-02T11:24:22.955+0800 I -        [serviceShutdown] Dropping the scope cache for shutdown
+2021-02-02T11:24:22.955+0800 I CONTROL  [serviceShutdown] now exiting

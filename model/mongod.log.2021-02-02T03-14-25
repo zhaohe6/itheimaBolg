@@ -1,0 +1,104 @@
+2021-02-01T14:47:59.514+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-02-01T14:47:59.516+0800 I CONTROL  [main] Trying to start Windows service 'MongoDB'
+2021-02-01T14:47:59.517+0800 I CONTROL  [initandlisten] MongoDB starting : pid=14012 port=27017 dbpath=E:\前端学习之路\BlogProject\model\db 64-bit host=RTOG593R4QEGUI2
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] db version v4.0.20
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] git version: e2416422da84a0b63cde2397d60b521758b56d1b
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] modules: none
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] build environment:
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2021-02-01T14:47:59.518+0800 I CONTROL  [initandlisten] options: { security: { authorization: "enabled" }, service: true, storage: { dbPath: "E:\前端学习之路\BlogProject\model\db" }, systemLog: { destination: "file", path: "E:\前端学习之路\BlogProject\model\mongod.log" } }
+2021-02-01T14:47:59.519+0800 I STORAGE  [initandlisten] Detected data files in E:\前端学习之路\BlogProject\model\db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2021-02-01T14:47:59.519+0800 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=1451M,cache_overflow=(file_max=0M),session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2021-02-01T14:47:59.698+0800 I STORAGE  [initandlisten] WiredTiger message [1612162079:697908][14012:140704205722960], txn-recover: Main recovery loop: starting at 8/5760 to 9/256
+2021-02-01T14:47:59.845+0800 I STORAGE  [initandlisten] WiredTiger message [1612162079:844875][14012:140704205722960], txn-recover: Recovering log 8 through 9
+2021-02-01T14:47:59.928+0800 I STORAGE  [initandlisten] WiredTiger message [1612162079:928454][14012:140704205722960], txn-recover: Recovering log 9 through 9
+2021-02-01T14:48:00.008+0800 I STORAGE  [initandlisten] WiredTiger message [1612162080:8371][14012:140704205722960], txn-recover: Set global recovery timestamp: 0
+2021-02-01T14:48:00.030+0800 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] 
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] ** WARNING: This server is bound to localhost.
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] **          Remote systems will be unable to connect to this server. 
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] **          Start the server with --bind_ip <address> to specify which IP 
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] **          addresses it should serve responses from, or with --bind_ip_all to
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] **          bind to all interfaces. If this behavior is desired, start the
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] **          server with --bind_ip 127.0.0.1 to disable this warning.
+2021-02-01T14:48:00.041+0800 I CONTROL  [initandlisten] 
+2021-02-01T14:48:00.046+0800 I SHARDING [initandlisten] Marking collection local.system.replset as collection version: <unsharded>
+2021-02-01T14:48:00.049+0800 I SHARDING [initandlisten] Marking collection admin.system.roles as collection version: <unsharded>
+2021-02-01T14:48:00.049+0800 I SHARDING [initandlisten] Marking collection admin.system.version as collection version: <unsharded>
+2021-02-01T14:48:00.051+0800 I SHARDING [initandlisten] Marking collection local.startup_log as collection version: <unsharded>
+2021-02-01T14:48:00.273+0800 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'E:/前端学习之路/BlogProject/model/db/diagnostic.data'
+2021-02-01T14:48:00.274+0800 I SHARDING [initandlisten] Marking collection admin.system.users as collection version: <unsharded>
+2021-02-01T14:48:00.274+0800 I SHARDING [initandlisten] Marking collection blog.articles as collection version: <unsharded>
+2021-02-01T14:48:00.274+0800 I SHARDING [initandlisten] Marking collection blog.users as collection version: <unsharded>
+2021-02-01T14:48:00.274+0800 I SHARDING [initandlisten] Marking collection config.system.sessions as collection version: <unsharded>
+2021-02-01T14:48:00.275+0800 I SHARDING [LogicalSessionCacheReap] Marking collection config.transactions as collection version: <unsharded>
+2021-02-01T14:48:00.275+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
+2021-02-01T14:48:00.275+0800 I STORAGE  [initandlisten] Service running
+2021-02-01T14:48:01.002+0800 I SHARDING [ftdc] Marking collection local.oplog.rs as collection version: <unsharded>
+2021-02-01T14:48:10.153+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:58439 #1 (1 connection now open)
+2021-02-01T14:48:10.161+0800 I NETWORK  [conn1] received client metadata from 127.0.0.1:58439 conn1: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-01T14:48:44.883+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:58470 #2 (2 connections now open)
+2021-02-01T14:48:44.883+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:58471 #3 (3 connections now open)
+2021-02-01T14:48:44.884+0800 I NETWORK  [conn2] received client metadata from 127.0.0.1:58470 conn2: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-01T14:48:44.884+0800 I NETWORK  [conn3] received client metadata from 127.0.0.1:58471 conn3: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-01T14:51:50.557+0800 I NETWORK  [conn3] end connection 127.0.0.1:58471 (2 connections now open)
+2021-02-01T14:51:50.557+0800 I NETWORK  [conn1] end connection 127.0.0.1:58439 (1 connection now open)
+2021-02-01T14:51:50.557+0800 I NETWORK  [conn2] end connection 127.0.0.1:58470 (0 connections now open)
+2021-02-01T14:51:51.474+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:58575 #4 (1 connection now open)
+2021-02-01T14:51:51.481+0800 I NETWORK  [conn4] received client metadata from 127.0.0.1:58575 conn4: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-01T14:51:51.489+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:58576 #5 (2 connections now open)
+2021-02-01T14:51:51.491+0800 I NETWORK  [conn5] received client metadata from 127.0.0.1:58576 conn5: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-01T14:51:51.517+0800 I ACCESS   [conn5] Successfully authenticated as principal itcast on blog from client 127.0.0.1:58576
+2021-02-01T14:52:06.857+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:58607 #6 (3 connections now open)
+2021-02-01T14:52:06.860+0800 I NETWORK  [conn6] received client metadata from 127.0.0.1:58607 conn6: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-01T14:52:06.869+0800 I ACCESS   [conn6] Successfully authenticated as principal itcast on blog from client 127.0.0.1:58607
+2021-02-02T10:58:05.945+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:60854 #7 (4 connections now open)
+2021-02-02T10:58:05.947+0800 I NETWORK  [conn7] received client metadata from 127.0.0.1:60854 conn7: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.20" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19041)" } }
+2021-02-02T10:59:04.349+0800 I NETWORK  [conn7] end connection 127.0.0.1:60854 (3 connections now open)
+2021-02-02T11:01:35.582+0800 I NETWORK  [conn4] end connection 127.0.0.1:58575 (2 connections now open)
+2021-02-02T11:01:35.583+0800 I NETWORK  [conn6] end connection 127.0.0.1:58607 (1 connection now open)
+2021-02-02T11:01:35.583+0800 I NETWORK  [conn5] end connection 127.0.0.1:58576 (0 connections now open)
+2021-02-02T11:05:21.261+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61539 #8 (1 connection now open)
+2021-02-02T11:05:21.267+0800 I NETWORK  [conn8] received client metadata from 127.0.0.1:61539 conn8: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-02T11:05:21.277+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61540 #9 (2 connections now open)
+2021-02-02T11:05:21.279+0800 I NETWORK  [conn9] received client metadata from 127.0.0.1:61540 conn9: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-02T11:05:21.298+0800 I ACCESS   [conn9] Successfully authenticated as principal itcast on blog from client 127.0.0.1:61540
+2021-02-02T11:05:29.634+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61559 #10 (3 connections now open)
+2021-02-02T11:05:29.639+0800 I NETWORK  [conn10] received client metadata from 127.0.0.1:61559 conn10: { driver: { name: "nodejs|Mongoose", version: "3.6.3" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.19041" }, platform: "'Node.js v12.16.1, LE (unified)", version: "3.6.3|5.11.10" }
+2021-02-02T11:05:29.724+0800 I ACCESS   [conn10] Successfully authenticated as principal itcast on blog from client 127.0.0.1:61559
+2021-02-02T11:06:03.471+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61582 #11 (4 connections now open)
+2021-02-02T11:06:03.472+0800 I NETWORK  [conn11] received client metadata from 127.0.0.1:61582 conn11: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.20" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19041)" } }
+2021-02-02T11:07:34.365+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61795 #12 (5 connections now open)
+2021-02-02T11:07:34.366+0800 I NETWORK  [conn12] received client metadata from 127.0.0.1:61795 conn12: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.20" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19041)" } }
+2021-02-02T11:08:12.689+0800 I NETWORK  [conn12] end connection 127.0.0.1:61795 (4 connections now open)
+2021-02-02T11:08:17.418+0800 I NETWORK  [listener] connection accepted from 127.0.0.1:61821 #13 (5 connections now open)
+2021-02-02T11:08:17.428+0800 I NETWORK  [conn13] received client metadata from 127.0.0.1:61821 conn13: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.20" }, os: { type: "Windows", name: "Microsoft Windows 10", architecture: "x86_64", version: "10.0 (build 19041)" } }
+2021-02-02T11:12:37.218+0800 I NETWORK  [conn11] end connection 127.0.0.1:61582 (4 connections now open)
+2021-02-02T11:13:55.668+0800 I NETWORK  [conn13] end connection 127.0.0.1:61821 (3 connections now open)
+2021-02-02T11:14:16.969+0800 I CONTROL  [serviceShutdown] got SERVICE_CONTROL_STOP request from Windows Service Control Manager, will terminate after current cmd ends
+2021-02-02T11:14:16.971+0800 I REPL     [serviceShutdown] Stepping down the ReplicationCoordinator for shutdown, waitTime: 10000ms
+2021-02-02T11:14:16.974+0800 I CONTROL  [serviceShutdown] Shutting down the LogicalSessionCache
+2021-02-02T11:14:16.974+0800 I NETWORK  [serviceShutdown] shutdown: going to close listening sockets...
+2021-02-02T11:14:16.975+0800 I NETWORK  [serviceShutdown] Shutting down the global connection pool
+2021-02-02T11:14:16.975+0800 I STORAGE  [serviceShutdown] Shutting down the PeriodicThreadToAbortExpiredTransactions
+2021-02-02T11:14:16.975+0800 I REPL     [serviceShutdown] Shutting down the ReplicationCoordinator
+2021-02-02T11:14:16.975+0800 I SHARDING [serviceShutdown] Shutting down the ShardingInitializationMongoD
+2021-02-02T11:14:16.975+0800 I COMMAND  [serviceShutdown] Killing all open transactions
+2021-02-02T11:14:16.975+0800 I -        [serviceShutdown] Killing all operations for shutdown
+2021-02-02T11:14:16.975+0800 I NETWORK  [serviceShutdown] Shutting down the ReplicaSetMonitor
+2021-02-02T11:14:16.976+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-02-02T11:14:16.976+0800 I CONTROL  [serviceShutdown] Shutting down free monitoring
+2021-02-02T11:14:16.976+0800 I FTDC     [serviceShutdown] Shutting down full-time data capture
+2021-02-02T11:14:16.976+0800 I FTDC     [serviceShutdown] Shutting down full-time diagnostic data capture
+2021-02-02T11:14:16.988+0800 I STORAGE  [serviceShutdown] Shutting down the HealthLog
+2021-02-02T11:14:16.988+0800 I STORAGE  [serviceShutdown] Shutting down the storage engine
+2021-02-02T11:14:16.989+0800 I STORAGE  [serviceShutdown] WiredTigerKVEngine shutting down
+2021-02-02T11:14:16.989+0800 I STORAGE  [serviceShutdown] Shutting down session sweeper thread
+2021-02-02T11:14:16.989+0800 I STORAGE  [serviceShutdown] Finished shutting down session sweeper thread
+2021-02-02T11:14:17.490+0800 I STORAGE  [serviceShutdown] shutdown: removing fs lock...
+2021-02-02T11:14:17.491+0800 I -        [serviceShutdown] Dropping the scope cache for shutdown
+2021-02-02T11:14:17.491+0800 I CONTROL  [serviceShutdown] now exiting

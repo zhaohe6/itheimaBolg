@@ -1,0 +1,4 @@
+2021-02-01T14:45:08.666+0800 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2021-02-01T14:45:08.668+0800 I CONTROL  [main] Trying to install Windows service 'MongoDB'
+2021-02-01T14:45:08.676+0800 I CONTROL  [main] Service 'MongoDB' (MongoDB) installed with command line 'E:\mongo\bin\mongod.exe --dbpath=E:\前端学习之路\BlogProject\model\db --logpath=E:\前端学习之路\BlogProject\model\mongod.log -auth --service'
+2021-02-01T14:45:08.676+0800 I CONTROL  [main] Service can be started from the command line with 'net start MongoDB'

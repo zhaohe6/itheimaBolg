@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>error</title>
+    <link rel="stylesheet" href="/admin/lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/admin/css/base.css">
+</head>
+
+<body>
+    <h3 style="text-align:center;color:red">{{msg}}</h3>
+</body>
+<script>
+    setTimeout(()=>{
+        location.href = '/admin/login'
+    },3000)
+</script>
+</html>
